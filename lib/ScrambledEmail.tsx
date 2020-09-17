@@ -4,7 +4,7 @@ import emailScramble from 'email-scramble'
 export interface IScrambledEmailProps {
   readonly email: string
   readonly text: string
-  readonly className: string
+  readonly className?: string
 }
 
 export const ScrambledEmail: React.FC<IScrambledEmailProps> = ({ email, text, className }) => {
