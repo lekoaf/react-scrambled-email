@@ -3,11 +3,14 @@ import React from 'react'
 import { ScrambledEmail } from 'react-scrambled-email'
 
 /**
- * Example application that uses the `Player` component.
+ * Example application that uses the `ScrambledEmail` component.
  */
 
 export const App = () => {
   return (
-    <ScrambledEmail email="martin.troback@outlook.com" text="Email" />
+    <span>
+      Send me an
+      <ScrambledEmail email="me@myemail.com" text="email" />
+    </span>
   )
 }
