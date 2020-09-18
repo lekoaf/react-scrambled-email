@@ -1,5 +1,9 @@
 # react-scrambled-email
 
+Bot proof your email links. The ScrambledEmail component will keep
+bots from stealing your email, but when a user clicks the link they
+will get the correct email.
+
 ### Installation
 
 `yarn add react-scrambled-email`
