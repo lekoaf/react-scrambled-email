@@ -1,6 +1,6 @@
 /**
  * Build the entire library as a single bundle to use with e.g.:
- * <script src="media-stream-player.min.js" />
+ * <script src="react-scrambled-email.min.js" />
  */
 module.exports = {
   entry: './lib/index',
